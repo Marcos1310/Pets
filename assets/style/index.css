@@ -1,0 +1,38 @@
+*,
+html,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.menu-pets {
+  height: 100vh;
+  background-color: #ddd;
+  position: relative; }
+  .menu-pets .container-logo-name {
+    margin-top: 10px; }
+    .menu-pets .container-logo-name img,
+    .menu-pets .container-logo-name p {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 25px;
+      font-weight: 500; }
+  .menu-pets .lista-menu {
+    list-style: none; }
+    .menu-pets .lista-menu li {
+      padding: 8px 0;
+      border-bottom: 1px solid #444;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .menu-pets .lista-menu li:hover {
+        font-weight: 500;
+        color: #2e2e2e;
+        border-color: #2e2e2e;
+        cursor: pointer;
+        transition: 0.2s; }
+  .menu-pets .assinatura-menu {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    font-size: 12px; }
