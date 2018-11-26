@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Pets</title>
+</head>
+
+<body>
+    <div class="container pt-5">
+        <img class="mb-4" src="https://image.flaticon.com/icons/svg/38/38499.svg" alt="" width="50" height="50">
+        <h4>Cadastro Produto</h4>
+        <form>
+            <div class="form-group">
+                <label for="Nome">Nome</label>
+                <input type="text" class="form-control" id="Nome" aria-describedby="Nome" placeholder="Nome">
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="valorVenda">R$ Valor Venda</label>
+                    <input type="Number" class="form-control" id="valorVenda" placeholder="R$ Valor Venda">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="valorCusto">R$ Valor Custo</label>
+                    <input type="number" class="form-control" id="valorCusto" placeholder="R$ Valor Custo">
+                </div>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="alimentacao" value="option1">
+                <label class="form-check-label" for="alimentacao">Alimentação</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="medicacao" value="option2">
+                <label class="form-check-label" for="medicacao">Medicação</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="brinquedos" value="option4">
+                <label class="form-check-label" for="brinquedos">Brinquedos</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="diversos" value="option5">
+                <label class="form-check-label" for="diversos">Diversos</label>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn btn-primary" onclick="window.location='/index.html';">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

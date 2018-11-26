@@ -21,24 +21,6 @@ html,
             vertical-align: middle;
             font-size: 25px;
             font-weight: 500;
-            //color: #fff;
-        }
-    }
-
-    .lista-menu {
-        list-style: none;
-        li {
-            padding: 8px 0;
-            border-bottom: 1px solid #444;
-            text-transform: uppercase;
-            font-weight: 600;
-            &:hover {
-                font-weight: 500;
-                color: #2e2e2e;
-                border-color: #2e2e2e;
-                cursor: pointer;
-                transition: 0.2s;
-            }
         }
     }
     .assinatura-menu {
@@ -47,4 +29,32 @@ html,
         left: 25%;
         font-size: 12px;
     }
+}
+
+.lista-menu {
+    list-style: none;
+    li {
+        padding: 8px 0;
+        border-bottom: 1px solid #444;
+        text-transform: uppercase;
+        font-weight: 600;
+        &:hover {
+            font-weight: 500;
+            color: #2e2e2e;
+            border-color: #2e2e2e;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+    }
+}
+
+.sub-menu {
+    position: absolute;
+    left: 16.6%;
+    top: 24%;
+    width: 320px;
+    height: 180px;
+    background-color: #ddd;
+    padding-top: 5px;
+    z-index: 10;
 }
